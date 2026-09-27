@@ -1,0 +1,33 @@
+{
+  "name": "second-self",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An agent that remembers your significant past decisions, why you made them, what happened, and surfaces that hindsight when a similar decision comes up again.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "seed:demo": "tsx scripts/seed-demo-data.ts"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "@vectorize-io/hindsight-client": "^0.1.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "vitest": "^2.0.0",
+    "tsx": "^4.16.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^14.2.0",
+    "@types/react": "^18.3.0",
+    "@types/node": "^20.14.0"
+  }
+}
